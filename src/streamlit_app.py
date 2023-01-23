@@ -1,6 +1,6 @@
 import streamlit as st
 
-image = 'src/neurona.jpg'
+image = 'src/img/neurona.jpg'
 st.image(image, caption='Neurona')
 
 st.title("¡Hola neurona!")
