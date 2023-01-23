@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.image('neurona.jpg', caption='Neurona')
+image = 'src/img/neurona.jpg'
+st.image(image, caption='Neurona')
 
 st.title("¡Hola neurona!")
 tab1, tab2, tab3 = st.tabs(["Una entrada", "Dos entradas", "Tres entradas y sesgo"])
